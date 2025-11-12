@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+}
+
+/* --- Background Gradient --- */
+.register-bg {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2, #6b8ce2);
+  background-size: 400% 400%;
+  animation: gradientShift 8s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* --- Card --- */
+.register-card {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 45px 40px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(12px);
+  text-align: center;
+  color: white;
+  width: 380px;
+  transition: all 0.3s ease;
+}
+
+.register-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* --- Titles --- */
+.register-title {
+  font-weight: 600;
+  font-size: 26px;
+  margin-bottom: 8px;
+}
+
+.register-subtitle {
+  font-weight: 400;
+  color: #e0e0e0;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+/* --- Inputs --- */
+.modern-input {
+  border-radius: 12px;
+  border: none;
+  padding: 12px 15px;
+  background: rgba(255, 255, 255, 0.9);
+  transition: all 0.3s ease;
+  font-size: 14px;
+}
+
+.modern-input:focus {
+  background: #fff;
+  outline: none;
+  box-shadow: 0 0 8px rgba(102, 126, 234, 0.6);
+}
+
+/* --- Button --- */
+.btn-modern {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #667eea, #764ba2);
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-modern:hover {
+  background: linear-gradient(90deg, #5a67d8, #6b46c1);
+  transform: scale(1.02);
+}
+
+/* --- Message --- */
+.message {
+  margin-top: 18px;
+  font-size: 14px;
+  color: #fff;
+}
+
+/* --- Footer --- */
+.register-footer {
+  margin-top: 25px;
+  font-size: 14px;
+  color: #f3f3f3;
+}
+
+.register-footer a {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: 500;
+}
+.register-footer a:hover {
+  color: #e0e0e0;
+}

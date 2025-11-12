@@ -1,0 +1,144 @@
+
+
+.budget-modern-container {
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.back-btn {
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+}
+
+.back-btn:hover {
+  background-color: #5a6268;
+  color: #fff;
+}
+
+.budget-modern-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.budget-modern-col {
+  flex: 1;
+  min-width: 300px;
+}
+
+.form-col {
+  max-width: 450px;
+}
+
+.budget-modern-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  padding: 20px;
+}
+
+.budget-modern-card h2 {
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.form-control {
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  padding: 8px 12px;
+  font-size: 0.95rem;
+}
+
+textarea.form-control {
+  min-height: 70px;
+  resize: vertical;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+}
+
+.table-col h3 {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.table-modern {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 5px;
+}
+
+.table-modern th,
+.table-modern td {
+  padding: 10px 12px;
+  text-align: left;
+}
+
+.table-modern thead {
+  background-color: #343a40;
+  color: #fff;
+  border-radius: 12px;
+}
+
+.table-modern tbody tr {
+  background-color: #fff;
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.table-modern tbody tr:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.table-modern td button {
+  padding: 4px 8px;
+  font-size: 0.8rem;
+  border-radius: 6px;
+  border: none;
+}
+
+.table-modern td button.btn-warning {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.table-modern td button.btn-warning:hover {
+  background-color: #e0a800;
+}
+
+.table-modern td button.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.table-modern td button.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.alert {
+  font-size: 0.95rem;
+}
+
+@media (max-width: 991px) {
+  .budget-modern-row {
+    flex-direction: column;
+  }
+  .form-col, .table-col {
+    max-width: 100%;
+  }
+}

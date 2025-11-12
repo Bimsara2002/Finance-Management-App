@@ -1,0 +1,92 @@
+/* -------------------- AddIncome.css -------------------- */
+
+/* Background gradient */
+body, .container {
+  background: linear-gradient(135deg, #f7f9fc, #e6f0fa);
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card styling */
+.card {
+  border-radius: 1rem;
+  background-color: #ffffff;
+  transition: transform 0.2s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading styling */
+.card h3 {
+  font-weight: 600;
+  color: #1a73e8;
+}
+
+/* Form inputs */
+.form-control,
+.form-select,
+textarea.form-control {
+  border-radius: 0.5rem;
+  border: 1px solid #ced4da;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-control:focus,
+.form-select:focus,
+textarea.form-control:focus {
+  border-color: #1a73e8;
+  box-shadow: 0 0 5px rgba(26, 115, 232, 0.3);
+  outline: none;
+}
+
+/* Buttons */
+.btn-success {
+  background: linear-gradient(135deg, #1a73e8, #4285f4);
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: transform 0.2s, box-shadow 0.3s;
+}
+
+.btn-success:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(26, 115, 232, 0.4);
+}
+
+/* Table styling */
+table {
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+
+.table thead {
+  background-color: #1a73e8;
+  color: #fff;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f5fb;
+}
+
+.table td, .table th {
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* Alerts */
+.alert-info {
+  background-color: #e7f0ff;
+  color: #1a73e8;
+  border-radius: 0.5rem;
+  font-weight: 500;
+}
+
+/* Responsive spacing */
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 1.5rem;
+  }
+}

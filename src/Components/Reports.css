@@ -1,0 +1,71 @@
+.report-container {
+  background: linear-gradient(135deg, #f0f4f8, #e6f0fa);
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.text-gradient {
+  background: linear-gradient(45deg, #007bff, #00bcd4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.month-input {
+  width: 200px;
+  display: inline-block;
+}
+
+.report-card {
+  background: #ffffff;
+  border-radius: 20px;
+  border: 1px solid #e1e1e1;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.report-summary {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.summary-item {
+  padding: 10px 15px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.summary-item b {
+  font-size: 1.1rem;
+}
+
+.income {
+  background-color: #e0f8ea;
+  border-left: 5px solid #28a745;
+}
+
+.expenses {
+  background-color: #ffe8e6;
+  border-left: 5px solid #dc3545;
+}
+
+.savings {
+  background-color: #e6f4ff;
+  border-left: 5px solid #007bff;
+}
+
+.balance {
+  background-color: #fff9e6;
+  border-left: 5px solid #ffc107;
+}
+
+.btn-primary,
+.btn-success {
+  border-radius: 8px;
+  padding: 8px 20px;
+  font-weight: 500;
+}
